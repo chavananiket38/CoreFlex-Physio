@@ -38,7 +38,7 @@ export const defaultWhatsappMessage =
 export const doctor = {
   name: "Dr. Vaishnavi Shimpi",
   suffix: "(PT), MPT (Orthopaedics)",
-  photo: "/assets/dr-vaishnavi.webp",
+  photo: `${import.meta.env.BASE_URL}assets/dr-vaishnavi.webp`,
   bio: [
     "Dr. Vaishnavi Shimpi founded CoreFlex Physiotherapy Clinic with a simple belief: recovery should be personal, not procedural. As a Master's-qualified orthopaedic physiotherapist (MPT – Orthopaedics), she has spent her career treating pain and movement disorders the way she'd want them treated for her own family — with a thorough assessment first, and a plan second.",
     "Every patient at CoreFlex starts with a detailed clinical evaluation, not a generic protocol. Dr. Vaishnavi combines hands-on manual therapy with targeted exercise prescription, modern electrotherapy modalities, and clear at-home guidance, so progress continues long after you leave the clinic.",
